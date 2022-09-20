@@ -19,7 +19,6 @@ function App() {
     };
     let newValues = [...addValue, temp];
     setAddValue(newValues);
-    console.log(addValue);
   }
   function onCheckHandle(id) {
     let target = addValue.find((item) => item.id === id);
